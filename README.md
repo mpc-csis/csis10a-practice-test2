@@ -110,7 +110,7 @@ For reference, the javadoc for GraphicsContext is located at <https://openjfx.io
 ![Pluses](src/site/assets/PlusSigns.png)
 
 2. Create a method `drawPlus` that takes 3 arguments, a `GraphicContext` and the x and y coordinates of the center of the plus. This method will draw the plus.
-3. In the draw method in `PlusSigns.java`, use your `drawPlus` method to create the pluses as shown in the picture above.
+3. In the draw method in `PlusSigns.java`, use your `drawPlus` method to create the pluses as shown in the picture above. You can run your class using `mvn exec:java "-Dexec.mainClass=PlusSigns"`
 
 
 ## Problem 5 - Drawing with JavaFX B
