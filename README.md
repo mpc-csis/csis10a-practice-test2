@@ -20,7 +20,7 @@ In this problem, you will create a class with a static method that
 calculates the length or *magnitude* of a vector. The magnitude is often
 called the *norm*. The magnitude of a vector is the square root of the
 sum of the squares of each element. For a 3D vector that could be
-written as:\
+written as:
 ![norm](src/site/assets/vector-mag.png)
 
 Remember, you can use the methods in Java\'s Math class:
@@ -62,13 +62,14 @@ Do the following:
 4. Create a main method to test your implementations. Try the following
     inputs: (1) `new Point2D(0, 0), x = 1, y = 2` and (2) `new Point2D(1,
     2), x = 10, y = 100`
+5. You can run you class using `mvn exec:java "-Dexec.mainClass=PointMover"`
 
 ## Problem 4 - Override a method
 
 In this problem, you will create your own class that overrides a method.
 You will start with a simple class that wraps a String and provides a
-display method that prints the wrapped String.\
-\
+display method that prints the wrapped String.
+
 Do the following:
 
 1. In `src/main/java`, there is the file  `MyString.java` containing the following code:
@@ -112,7 +113,6 @@ For reference, the javadoc for GraphicsContext is located at <https://openjfx.io
 2. Create a method `drawPlus` that takes 3 arguments, a `GraphicContext` and the x and y coordinates of the center of the plus. This method will draw the plus.
 3. In the draw method in `PlusSigns.java`, use your `drawPlus` method to create the pluses as shown in the picture above. You can run your class using `mvn exec:java "-Dexec.mainClass=PlusSigns"`
 
-
 ## Problem 5 - Drawing with JavaFX B
 
 For reference, the javadoc for GraphicsContext is located at
@@ -124,7 +124,7 @@ drawing on is 300 by 300 pixels.**
 
 Do the following:
 
-1.  In `src/main/java` there is the stub class, TicTacToe.java, listed below. Create the following graphic using the methods of GraphicContext. You can run it from the command line using `mvn exec:java "-Dexec.mainClass=TicTacToe"`.
+1. In `src/main/java` there is the stub class, TicTacToe.java, listed below. Create the following graphic using the methods of GraphicContext. You can run it from the command line using `mvn exec:java "-Dexec.mainClass=TicTacToe"`.
 
     ![TicTacToe](src/site/assets/TicTacToe.png)
 

@@ -1,16 +1,16 @@
 public class MyString {
 
-  private String s;
+    private String s;
 
-  public MyString(String s) {
-    this.s = s;
-  }
+    public MyString(String s) {
+        this.s = s;
+    }
 
-  public String getString() {
-    return s;
-  }
+    public String getString() {
+        return s;
+    }
 
-  public void display() {
-    System.out.println(getString());
-  }
+    public void display() {
+        System.out.println(getString());
+    }
 }
