@@ -99,7 +99,21 @@ public class MyString {
 
 4. Create another class called `ShortStringTest` that contains a main method that tests `ShortString`. You can run it from the command line using `mvn exec:java "-Dexec.mainClass=ShortStringTest"`
 
-## Problem 5 - Drawing with JavaFX
+## Problem 5 - Drawing with JavaFX A
+
+For reference, the javadoc for GraphicsContext is located at <https://openjfx.io/javadoc/21/javafx.graphics/javafx/scene/canvas/GraphicsContext.html>. Just a reminder that you can use GraphicsContext to stroke (i.e. draw) or fill. The method you will need for this problem is [strokeLine](https://openjfx.io/javadoc/21/javafx.graphics/javafx/scene/canvas/GraphicsContext.html#strokeLine(double,double,double,double)).
+
+**READ ALL THE STEPS BEFORE STARTING!** Do the following:
+
+1. In `src/main/java` there is the stub class, PlusSigns.java. Your goal is to create the following pluses. Note that you are not drawing the coordinate labels, they are there just to inform you of the location and size of the plus signs.
+
+![Pluses](src/site/assets/PlusSigns.png)
+
+2. Create a method `drawPlus` that takes 3 arguments, a `GraphicContext` and the x and y coordinates of the center of the plus. This method will draw the plus.
+3. In the draw method in `PlusSigns.java`, use your `drawPlus` method to create the pluses as shown in the picture above.
+
+
+## Problem 5 - Drawing with JavaFX B
 
 For reference, the javadoc for GraphicsContext is located at
 <https://openjfx.io/javadoc/21/javafx.graphics/javafx/scene/canvas/GraphicsContext.html>.
